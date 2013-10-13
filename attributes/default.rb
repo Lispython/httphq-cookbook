@@ -13,7 +13,7 @@ default["httphq"]["userhome"] = "/home/#{node['httphq']['user']}"
 default["httphq"]["virtualenv"] = "/var/www/httphq"
 default["httphq"]["name"] = "httphq"
 
-default["httphq"]["version"] = "0.0.5"
+default["httphq"]["version"] = "0.0.6"
 
 default["httphq"]["servers"] = [{
   "host" => "127.0.0.1",
